@@ -8,7 +8,7 @@ from telebot.handler_backends import State, StatesGroup
 print('Start telegram bot...')
 
 state_storage = StateMemoryStorage()
-token_bot = '7670973361:AAGPy486i_aCQpTl7BrzzquwEruFqIs06iY'
+token_bot = 'Your token'
 bot = TeleBot(token_bot, state_storage=state_storage)
 
 # Подключаемся к базе данных
